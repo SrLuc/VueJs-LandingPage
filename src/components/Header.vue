@@ -2,7 +2,7 @@
     <header class="container">
         <div class="left-container">
             <img src="https://img.icons8.com/?size=100&id=AFpQAp8iONyr&format=png&color=000000" alt="">
-            <h2>ThunderCore</h2>
+            <h3>ThunderCore</h3>
         </div>
         <nav>
             <ul class="links-container">
@@ -12,7 +12,7 @@
             </ul>
         </nav>
         <div class="logs-container">
-            <p>Login</p>
+            <h4>Login</h4>
             <p>Get Started</p>
         </div>
     </header>
@@ -34,7 +34,9 @@
     justify-content: space-between;
     align-items: center;
     background-color: #F3F3F3;
-    @include spacing(5px, 0);
+    font-size: 12px;    
+    border-radius: 50px;
+    @include spacing(2px, 10px);
 }
 
 .left-container {
@@ -45,8 +47,8 @@
     }
 
     img {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
         @include spacing(0, 5px);
     }
 }
@@ -58,7 +60,8 @@
 
     li {
         cursor: pointer;
-        @include spacing(0, 5px);
+        margin-left: 10px;
+        font-size: 15px;
     }
 
 }
@@ -67,9 +70,23 @@
     @extend .container;
     @include spacing(0, 5px);
 
-    p {
+    h4 {
         cursor: pointer;
         @include spacing(0, 5px);
+    }
+
+    p {
+        cursor: pointer;
+        @include spacing(15px, 5px);
+        border-radius: 40px;
+        font-weight: bold;
+        border: 1px solid #333;
+    }
+
+    p:hover{
+        background-color: #172B4D;
+        color: white;
+        transition: all 0.2s ease-in-out;
     }
 }
 </style>
