@@ -9,6 +9,8 @@ Below, some screenshots of project:
 ![App Screenshot](/src/assets/shot1.png)
 ![App Screenshot](/src/assets/shot2.png)
 
-## Deploy on Vercel:
+## Deploy on Vercel: 
+https://vue-js-landing-page.vercel.app/
+
 
 
