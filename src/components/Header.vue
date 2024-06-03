@@ -34,7 +34,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #F3F3F3;
-    font-size: 12px;    
+    font-size: 12px;
     border-radius: 50px;
     @include spacing(2px, 10px);
 }
@@ -83,10 +83,23 @@
         border: 1px solid #333;
     }
 
-    p:hover{
+    p:hover {
         background-color: #172B4D;
         color: white;
         transition: all 0.2s ease-in-out;
+    }
+
+    @media screen and (max-width: 768px) {
+        h4 {
+            font-size: 10px;
+        }
+
+        p {
+            font-size: 10px;
+            margin: 0;
+            padding: 5px;
+            text-align: center;
+        }
     }
 }
 </style>

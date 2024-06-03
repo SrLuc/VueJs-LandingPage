@@ -18,26 +18,27 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    height: 70vh;
+    height: 55vh;
     font-size: 15px;
     border-radius: 50px;
-    margin: 10px;
+    margin: 15px;
     background-color: #F3F3F3;
 }
 
 article {
     width: 50%;
-    padding: 20px;
+    padding: 25px;
 }
 
 @media (max-width: 768px) {
     article {
-        width:100%;
+        width: 100%;
+        text-align: center;
     }
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 60px;
     margin: 0;
     color: #172B4D;
 }
@@ -54,7 +55,7 @@ button {
     border-radius: 50px;
     font-weight: bold;
     border: 1px solid #333;
-    color:  #172B4D;
+    color: #172B4D;
     margin-top: 20px;
     transition: 0.3s all;
     font-weight: bold;
