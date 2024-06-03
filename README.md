@@ -2,28 +2,13 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+it's a simple landing page to help me improve my own knowledge in Vue 3, SFC (Simple Functional Component) and Fetching, Render datas of any API.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Below, some screenshots of project:
 
-## Customize configuration
+![App Screenshot](/src/assets/shot1.png)
+![App Screenshot](/src/assets/shot2.png)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Deploy on Vercel:
 
-## Project Setup
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
